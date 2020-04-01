@@ -19,7 +19,7 @@
                     <ColumnDefinition Width="4*"/>
                     <ColumnDefinition Width="3*"/>
                 </Grid.ColumnDefinitions>
-                <Border Grid.ColumnSpan="3" BorderThickness="1" BorderBrush="Goldenrod" Background="Green" Margin="-8 0">
+                <Border Grid.ColumnSpan="3" BorderThickness="1" BorderBrush="Goldenrod" Background="Green" Margin="0">
                     <TextBlock Text="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:BillControl}}, Path=Denomination}" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
                 </Border>
                 <Button Grid.Row="1" Grid.Column="0" Click="OnDecreaseClicked">-</Button>
